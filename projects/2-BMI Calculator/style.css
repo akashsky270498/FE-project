@@ -1,0 +1,106 @@
+/* === Main container for the BMI Calculator === */
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto; /* Centers the container */
+  padding: 40px;
+  background-color: #1e1e2f; /* Dark background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Soft shadow for depth */
+  border-radius: 12px; /* Rounded corners */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e4e4e7; /* Light text color */
+}
+
+/* === Heading Style === */
+h1 {
+  text-align: center;
+  color: #ffffff; /* White text */
+  margin-bottom: 30px;
+}
+
+/* === Input fields for height and weight === */
+#height,
+#weight {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2e2e3e; /* Slightly lighter dark background */
+  color: #ffffff;
+  border: 1px solid #44475a;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* === Label and input wrappers === */
+form p {
+  margin: 0 0 15px;
+}
+
+/* === Submit Button === */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #4f46e5; /* Indigo shade */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3730a3; /* Darker indigo on hover */
+}
+
+/* === Results Display === */
+#results {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #d1fae5; /* Soft green for success */
+}
+
+/* === BMI Weight Guide === */
+#weight-guide {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #2d2d3d;
+  border-radius: 8px;
+  color: #c9c9d1;
+}
+
+#weight-guide h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+#weight-guide p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+/* === Navigation Bar Styling === */
+nav {
+  background-color: #111827; /* Dark navy */
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #e5e7eb; /* Light grey text */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #a5b4fc; /* Light indigo hover */
+}
